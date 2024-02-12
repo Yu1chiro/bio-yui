@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yuichiro</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
@@ -19,11 +20,15 @@
     
 
      Background Animation Text -->
-    <span class="bg-text-animation">Yuichiro</span>
-    <span class="bg2-text-animation">勇一郎</span>
+    <span class="bg-text-animation" data-aos="fade-up"
+    data-aos-duration="2000">Yuichiro</span>
+    <span class="bg2-text-animation" data-aos="fade-up"
+    data-aos-duration="2000">勇一郎</span>
 
     <!-- Profile -->
-    <img class="my-photo" src="./img/bio2.jpg" alt="AR Logo">
+    <img class="my-photo" src="./img/bio2.jpg" alt="AR Logo" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">
     <div id="typing"></div>
     <script>
         var texts = ["Hello", "Im Yuichiro", "Junior Frontend Developer", "日本語教育大学科大学生", "Let's be friends👋"];
@@ -66,7 +71,8 @@
 
     <!-- Link List -->
     <ul class="links">
-        <li>
+        <li data-aos="fade-up"
+        data-aos-duration="1000">
             <a href="https://discord.com/users/Takumi-Gin#0301" target="_blank" class="link-card">
                 <div class="link-icon">
                     <i class="ph-fill ph-discord-logo"></i>
@@ -77,7 +83,8 @@
                 </div>
             </a>
         </li>
-        <li>
+        <li data-aos="fade-up"
+        data-aos-duration="2000">
             <a href="https://github.com/yu1chiro" target="_blank" class="link-card">
                 <div class="link-icon">
                     <i class="ph-fill ph-github-logo"></i>
@@ -88,7 +95,8 @@
                 </div>
             </a>
         </li>
-        <li>
+        <li data-aos="fade-up"
+        data-aos-duration="3000">
             <a href="" target="_blank" class="link-card">
                 <div class="link-icon">
                     <i class="ph-fill ph-linkedin-logo"></i>
@@ -99,7 +107,8 @@
                 </div>
             </a>
         </li>
-        <li>
+        <li data-aos="fade-up"
+        data-aos-duration="3000">
             <a href="https://hera-bio-ufrp.vercel.app" target="_blank" class="link-card">
                 <div class="link-icon">
                     <i class="ph-fill ph-file"></i>
@@ -110,7 +119,8 @@
                 </div>
             </a>
         </li>
-        <li>
+        <li data-aos="fade-up"
+        data-aos-duration="3000">
             <a href="https://open.spotify.com/user/4gbzber68kbf57927y0ittk12" target="_blank" class="link-card">
                 <div class="link-icon">
                     <i class="ph-fill ph-spotify-logo"></i>
@@ -133,6 +143,10 @@
     </div>
 
     <script src="/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
