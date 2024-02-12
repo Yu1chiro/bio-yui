@@ -208,8 +208,8 @@ ul.links li:not(:last-child) {
 /* Media Mobile */
 @media screen and (max-width: 767px) {
   .bg2-text-animation {
-    font-size: 7.5rem; /* Sesuaikan ukuran teks untuk smartphone */
-    top:3rem;
+    font-size: 5rem; /* Sesuaikan ukuran teks untuk smartphone */
+    top:5.3rem;
     display:block;
   }
   .bg-text-animation {
